@@ -1,11 +1,9 @@
 package com.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 
-@Entity
+
 public class TrainInfo {
-	@Id
+	
 	private int trainId;
 	private String trainName;
 	private String trainSource;
